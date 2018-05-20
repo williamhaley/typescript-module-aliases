@@ -1,0 +1,13 @@
+{
+	"_moduleAliases": {
+		"@myapp": "artifacts",
+		"@animals": "artifacts/animals"
+	},
+	"scripts": {
+		"clean": "rm -rf artifacts/*",
+		"start": "npm run clean && tsc --allowJs && node artifacts/app.js"
+	},
+	"devDependencies": {
+		"module-alias": "^2.0.6"
+	}
+}

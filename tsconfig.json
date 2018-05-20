@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"outDir": "artifacts",
+		"baseUrl": "./src/",
+		"paths": {
+			"@myapp/*": ["*"],
+			"@animals/*": ["animals/*"]
+		}
+	},
+	"filesGlob": [
+		"src/**/*.ts"
+	]
+}
